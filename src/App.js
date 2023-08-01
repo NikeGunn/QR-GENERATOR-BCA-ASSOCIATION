@@ -70,7 +70,7 @@ function App() {
   pdfDoc.addImage(qrCodeDataURL, "PNG", qrCodeX, qrCodeY, qrCodeSize, qrCodeSize);
 
   // Add student's name to the PDF document
-  pdfDoc.setFont('helvetica', 'bold');
+  pdfDoc.setFont('Montserrat', 'bold');
   pdfDoc.setFontSize(22);
   pdfDoc.setTextColor('#1D222A');
   pdfDoc.text(name, 105, 32.5, { align: 'center', maxWidth: 100 });
