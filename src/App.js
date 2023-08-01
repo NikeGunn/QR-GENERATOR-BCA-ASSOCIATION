@@ -73,7 +73,7 @@ function App() {
   pdfDoc.setFont('helvetica', 'bold');
   pdfDoc.setFontSize(22);
   pdfDoc.setTextColor('#1D222A');
-  pdfDoc.text(name, 105, 35, { align: 'center', maxWidth: 100 });
+  pdfDoc.text(name, 105, 32.5, { align: 'center', maxWidth: 100 });
 
   // Add roll number and batch to the PDF document
   pdfDoc.setFontSize(23);
@@ -82,7 +82,7 @@ function App() {
   pdfDoc.setTextColor('#1D222A');
   pdfDoc.text(`CreatedAT: ${createdAt}`, 105, 142, { align: 'center', maxWidth: 100 });
   pdfDoc.setFontSize(45);
-  pdfDoc.setTextColor('#EFEFEF');
+  pdfDoc.setTextColor('#1D222A');
   pdfDoc.text(`Batch: ${batch}`, 105, 170, { align: 'center', maxWidth: 100 });
 
   // Save the PDF with the person's name
