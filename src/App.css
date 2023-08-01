@@ -122,6 +122,62 @@
   background-color: #555555;
 }
 
+/* App.css */
+/* ... (previous styles) */
+
+/* Styling for the custom modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-message {
+  font-size: 16px;
+}
+
+/* Additional styling for the PDF content */
+.pdf-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pdf-details {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* ... (rest of the styles) */
+
+
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .form {
