@@ -102,7 +102,7 @@ function App() {
     <div className="container">
       <nav className="navbar">
         <h1 className="navbar-title">MMAMC BCA ASSOCIATION</h1>
-        <h2 className="navbar-subtitle">ID CARD GENERATOR</h2>
+        <h2 className="navbar-subtitle">eCardify</h2>
       </nav>
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
         <input
